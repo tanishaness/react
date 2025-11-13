@@ -1,83 +1,210 @@
+## 🚀 Quick Start
 
-### Steps to Run the Project
+### Prerequisites
 
-#### 1. Clone the Repository
+- Node.js 18+ and npm/yarn/pnpm
+- Git
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
 git clone <repository-url>
-cd <project-folder>
+cd my-project
 ```
 
-#### 2. Install Backend Dependencies
-
-Navigate to the backend folder (usually named `server`, `backend`, or similar):
+2. Install dependencies:
 
 ```bash
-cd backend
 npm install
+# or
+yarn install
+# or
+pnpm install
 ```
 
-#### 3. Set Up Environment Variables
+3. Run the development server:
 
-Create a `.env` file in the backend folder and add your environment variables:
-
-```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/your-database-name
-JWT_SECRET=your-secret-key
-```
-
-#### 4. Start the Backend Server
-
-```bash
-npm start
-```
-or for development:
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-#### 5. Install Frontend Dependencies
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Navigate to the frontend folder (usually named `client`, `frontend`, or similar):
+## 📁 Project Structure
 
-```bash
-cd ../client
-npm install
 ```
 
-#### 6. Start the Frontend
+```
+
+## 🎨 Design System
+
+### Typography
+
+- **Body Font**: 
+- **Headings**: 
+
+### Colors
+
+- **Background**: 
+- **Text**: 
+- **Gradients**:
+  - Primary: 
+  - Secondary: 
+
+### Spacing
+
+- **Section spacing**: 
+- **Component spacing**: 
+
+### Buttons
+
+- **Height**: 4
+- **Border radius**: 1
+- **Primary**: 
+- **Secondary**: 
+
+## 🖼️ Image Assets
+
+### Required Images
+
+Place the following images in `../assets/images/`:
+1. 
+
+### Image Optimization
+
+- Export images in 3 sizes: 400px, 800px, 1600px
+- Provide WebP versions for each
+- Use Next.js Image component with `srcset` for responsive loading
+- Include blurred LQIP (Low Quality Image Placeholder) for hero and founder images
+
+### Current Image Usage
+
+The site currently uses images from `xyz` directory. You can replace these with optimized versions in `abc` as needed.
+
+## 📄 PDF Assets
+
+Place the company profile PDF at:
+
+- `/public/downloads/xyz.pdf`
+
+## 🚢 Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Import the project in [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and configure build settings
+4. Deploy!
+
+### Manual Build
 
 ```bash
+npm run build
 npm start
 ```
 
-***
+### Environment Variables
 
-### Project Structure
+For production, configure:
 
-- `backend/` – Node.js and Express server, API routes, MongoDB connection
-- `client/` – React frontend, UI components, API calls
+- Contact form submission endpoint (if using custom API)
+- Analytics IDs (if needed)
+- Social media links (if available)
 
-***
+## ✅ QA Checklist
 
-### Running Both Backend and Frontend Together
+### Performance
 
-If you want to run both simultaneously, use a tool like `concurrently`:
+- [ ] Lighthouse score > 90 for Performance, Accessibility, Best Practices, SEO
+- [ ] Images optimized (WebP format, proper sizing)
+- [ ] Lazy loading enabled for non-critical images
+- [ ] Fonts loaded with `display: swap`
 
-In the project root:
-```bash
-npm install concurrently --save-dev
-```
+### Accessibility
 
-Add a script to your root `package.json`:
-```json
-"scripts": {
-  "start": "concurrently \"npm --prefix backend start\" \"npm --prefix client start\""
-}
-```
+- [ ] WCAG AA compliance
+- [ ] All images have descriptive alt text
+- [ ] Form inputs have proper labels and ARIA attributes
+- [ ] Keyboard navigation works throughout
+- [ ] Color contrast meets WCAG standards
+- [ ] `prefers-reduced-motion` respected
 
-Then run:
-```bash
-npm start
-```
+### SEO
+
+- [ ] All pages have unique titles and meta descriptions
+- [ ] OpenGraph tags configured
+- [ ] Twitter Card metadata added
+- [ ] Structured data (Schema.org) implemented
+- [ ] Sitemap.xml generated (if needed)
+- [ ] robots.txt configured (if needed)
+
+### Functionality
+
+- [ ] All links work correctly
+- [ ] Contact form submits successfully
+- [ ] PDF download works
+- [ ] Mobile navigation functions properly
+- [ ] Responsive design tested on multiple devices
+- [ ] Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+
+## 🔧 Customization
+
+### Updating Contact Information
+
+Edit contact details in:
+
+- `components/Footer.tsx`
+- `components/Header.tsx`
+
+### Modifying Content
+
+- Home page: `app/page.tsx`
+- About page: `app/about/page.tsx`
+- Contact: `app/contact/page.tsx`
+
+### Styling
+
+- Global styles: `app/globals.css`
+- Component styles: Tailwind classes in component files
+- Design tokens: CSS variables in `globals.css`
+
+## 📧 Contact Form Setup
+
+The contact form currently uses a placeholder submission handler. For production:
+
+1. **Option 1: Formspree/Netlify Forms**
+
+   - Sign up for Formspree or use Netlify Forms
+   - 
+
+2. **Option 2: Custom API Route**
+
+   - 
+
+3. **Option 3: Serverless Function**
+   - Deploy serverless function (Vercel, AWS Lambda, etc.)
+   - Update form endpoint
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **React**: 19.2.0
+- **Styling**: Tailwind CSS 4
+- **TypeScript**: 5.x
+- **Icons**: Lucide React
+- **Fonts**: Inter, Playfair Display (Google Fonts)
+
+## 📝 License
+
+
+## 👥 Support
+
+For technical support or questions about the website, contact the development team.
+
+---
