@@ -75,13 +75,54 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 - {Page/component name}: {Brief description}  
 - {Page/component name}: {Brief description}  
 
+## Menu Items Configuration (Optional)
+- Rules for dynamic visibility based on authentication, verification, sign-in methods, with examples
+
+## User Registration Fields Configuration (Optional)
+- Control of fields as disabled, allowed, or mandatory matching backend settings
+
+## Login Form Username Field (Optional)
+- Customization of username input type and validation pattern
+
+## Social Login and SAML Setup (Optional)
+- Instructions and references for enabling third-party login providers and SAML integrations
+
+## Customizations (Optional)
+- Custom CSS files loading
+
+- Custom HTML injection examples (header, login form, contact box, footer)
+
+- Multiple configuration variants for branding and multi-organization setups
+
+## Captive Portal and RADIUS Support (Optional)
+- Mock endpoints for development
+
+- Supported realms and proxy usage
+
+- Error handling in captive portal with example HTML
+
+## Loading Extra JavaScript Files (Optional)
+- Global vs organization-specific script loading for analytics/error monitoring
+
+## Browser Support (Optional)
+- Notes on polyfills and legacy browser support requirements
+
+## Proxy Server Logging (Optional)
+- Example configuration for Sentry integration with log level controls
+
+## Translations (Optional)
+- Instructions to add, update, and customize translations per language and organization with example commands and file naming conventions
+
+## Performance Optimizations (Optional)
+- Lazy loading, code splitting, image optimization, bundle optimization, etc.
+
 ## API Endpoints
 
-{List main API endpoints with short descriptions - optional}
+- {List main API endpoints with short descriptions - optional}
 
 ## Security Features
 
-{Highlight any major security features like input validation, XSS/CSRF protection, secure payments, GDPR compliance}
+- {Highlight any major security features like input validation, XSS/CSRF protection, secure payments, GDPR compliance}
 
 ## Performance Optimizations (Optional)
 
