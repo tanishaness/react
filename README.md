@@ -124,10 +124,6 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 
 - {Highlight any major security features like input validation, XSS/CSRF protection, secure payments, GDPR compliance}
 
-## Performance Optimizations (Optional)
-
-- Lazy loading, code splitting, image optimization, bundle optimization, etc.
-
 ## Deployment
 
 1. Set up production environment variables  
