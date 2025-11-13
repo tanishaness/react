@@ -28,6 +28,38 @@
 {Brief directory structure showcasing main folders/files}
 ```
 
+## QA Checklist
+
+### Performance
+- [ ] Lighthouse score > 90 for Performance, Accessibility, Best Practices, SEO  
+- [ ] Images optimized (WebP format, proper sizing)  
+- [ ] Lazy loading enabled for non-critical images  
+
+### Accessibility
+- [ ] WCAG AA compliance  
+- [ ] All images have descriptive alt text  
+- [ ] Form inputs have proper labels and ARIA attributes  
+- [ ] Keyboard navigation works throughout  
+- [ ] Color contrast meets WCAG standards  
+- [ ] `prefers-reduced-motion` respected  
+
+### SEO
+- [ ] All pages have unique titles and meta descriptions  
+- [ ] OpenGraph tags configured  
+- [ ] Twitter Card metadata added  
+- [ ] Structured data (Schema.org) implemented  
+- [ ] Sitemap.xml generated (if needed)  
+- [ ] robots.txt configured (if needed)  
+
+### Functionality
+- [ ] All links work correctly  
+- [ ] Contact form submits successfully  
+- [ ] PDF download works  
+- [ ] Mobile navigation functions properly  
+- [ ] Responsive design tested on multiple devices  
+- [ ] Cross-browser compatibility (Chrome, Firefox, Safari, Edge)  
+
+
 ## Setup Instructions
 
 ### Prerequisites
