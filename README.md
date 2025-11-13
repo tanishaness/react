@@ -8,19 +8,19 @@
 
 ## Tech Stack
 
-- **Framework**: {Framework and version}  
-- **Language**: {Programming language}  
-- **Styling**: {UI/styling technologies}  
-- **Database**: {Database}  
-- **ORM**: {ORM if any}  
-- **Authentication**: {Auth methods}  
-- **Other Tools**: {Other tools and libraries}  
+- **Framework**: {Framework and version}
+- **Language**: {Programming language}
+- **Styling**: {UI/styling technologies}
+- **Database**: {Database}
+- **ORM**: {ORM if any}
+- **Authentication**: {Auth methods}
+- **Other Tools**: {Other tools and libraries}
 
 ## Design System (Optional)
 
-- **Color Palette**: {Brief description or key colors}  
-- **Typography**: {Fonts and styles}  
-- **Components**: {Special UI components or design notes}  
+- **Color Palette**: {Brief description or key colors}
+- **Typography**: {Fonts and styles}
+- **Components**: {Special UI components or design notes}
 
 ## Project Structure
 
@@ -31,34 +31,37 @@
 ## QA Checklist
 
 ### Performance
-- [ ] Lighthouse score > 90 for Performance, Accessibility, Best Practices, SEO  
-- [ ] Images optimized (WebP format, proper sizing)  
-- [ ] Lazy loading enabled for non-critical images  
+
+- [ ] Lighthouse score > 90 for Performance, Accessibility, Best Practices, SEO
+- [ ] Images optimized (WebP format, proper sizing)
+- [ ] Lazy loading enabled for non-critical images
 
 ### Accessibility
-- [ ] WCAG AA compliance  
-- [ ] All images have descriptive alt text  
-- [ ] Form inputs have proper labels and ARIA attributes  
-- [ ] Keyboard navigation works throughout  
-- [ ] Color contrast meets WCAG standards  
-- [ ] `prefers-reduced-motion` respected  
+
+- [ ] WCAG AA compliance
+- [ ] All images have descriptive alt text
+- [ ] Form inputs have proper labels and ARIA attributes
+- [ ] Keyboard navigation works throughout
+- [ ] Color contrast meets WCAG standards
+- [ ] `prefers-reduced-motion` respected
 
 ### SEO
-- [ ] All pages have unique titles and meta descriptions  
-- [ ] OpenGraph tags configured  
-- [ ] Twitter Card metadata added  
-- [ ] Structured data (Schema.org) implemented  
-- [ ] Sitemap.xml generated (if needed)  
-- [ ] robots.txt configured (if needed)  
+
+- [ ] All pages have unique titles and meta descriptions
+- [ ] OpenGraph tags configured
+- [ ] Twitter Card metadata added
+- [ ] Structured data (Schema.org) implemented
+- [ ] Sitemap.xml generated (if needed)
+- [ ] robots.txt configured (if needed)
 
 ### Functionality
-- [ ] All links work correctly  
-- [ ] Contact form submits successfully  
-- [ ] PDF download works  
-- [ ] Mobile navigation functions properly  
-- [ ] Responsive design tested on multiple devices  
-- [ ] Cross-browser compatibility (Chrome, Firefox, Safari, Edge)  
 
+- [ ] All links work correctly
+- [ ] Contact form submits successfully
+- [ ] PDF download works
+- [ ] Mobile navigation functions properly
+- [ ] Responsive design tested on multiple devices
+- [ ] Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
 
 ## Setup Instructions
 
@@ -98,28 +101,33 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 
 ## Responsive Design (Optional)
 
-- Desktop: {Description}  
-- Tablet: {Description}  
-- Mobile: {Description}  
+- Desktop: {Description}
+- Tablet: {Description}
+- Mobile: {Description}
 
 ## Key Pages / Components (Optional)
 
-- {Page/component name}: {Brief description}  
-- {Page/component name}: {Brief description}  
+- {Page/component name}: {Brief description}
+- {Page/component name}: {Brief description}
 
 ## Menu Items Configuration (Optional)
+
 - Rules for dynamic visibility based on authentication, verification, sign-in methods, with examples
 
 ## User Registration Fields Configuration (Optional)
+
 - Control of fields as disabled, allowed, or mandatory matching backend settings
 
 ## Login Form Username Field (Optional)
+
 - Customization of username input type and validation pattern
 
 ## Social Login and SAML Setup (Optional)
+
 - Instructions and references for enabling third-party login providers and SAML integrations
 
 ## Customizations (Optional)
+
 - Custom CSS files loading
 
 - Custom HTML injection examples (header, login form, contact box, footer)
@@ -127,6 +135,7 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 - Multiple configuration variants for branding and multi-organization setups
 
 ## Captive Portal and RADIUS Support (Optional)
+
 - Mock endpoints for development
 
 - Supported realms and proxy usage
@@ -134,18 +143,23 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 - Error handling in captive portal with example HTML
 
 ## Loading Extra JavaScript Files (Optional)
+
 - Global vs organization-specific script loading for analytics/error monitoring
 
 ## Browser Support (Optional)
+
 - Notes on polyfills and legacy browser support requirements
 
 ## Proxy Server Logging (Optional)
+
 - Example configuration for Sentry integration with log level controls
 
 ## Translations (Optional)
+
 - Instructions to add, update, and customize translations per language and organization with example commands and file naming conventions
 
 ## Performance Optimizations (Optional)
+
 - Lazy loading, code splitting, image optimization, bundle optimization, etc.
 
 ## API Endpoints
@@ -158,16 +172,16 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 
 ## Deployment
 
-1. Set up production environment variables  
-2. Run database migrations  
-3. Build the application  
-4. Start the production server  
+1. Set up production environment variables
+2. Run database migrations
+3. Build the application
+4. Start the production server
 
 ## Development
 
-- **Linting**: {Lint command}  
-- **Formatting**: {Format command}  
-- **Testing**: {Test commands if any}  
+- **Linting**: {Lint command}
+- **Formatting**: {Format command}
+- **Testing**: {Test commands if any}
 
 ## Customization (Optional)
 
@@ -179,11 +193,11 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 
 ## Contributing
 
-1. Fork the repository  
-2. Create a feature branch  
-3. Make your changes  
-4. Add tests if applicable  
-5. Submit a pull request  
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
 
 ## License
 
@@ -193,12 +207,11 @@ Open [http://localhost:{port}](http://localhost:{port}) in your browser.
 
 For technical support or questions, contact:
 
-- Email: {support email}  
-- Phone: {support phone, optional}  
-- Website: {support website, optional}  
-- GitHub Issues: {issues url}  
+- Email: {support email}
+- Phone: {support phone, optional}
+- Website: {support website, optional}
+- GitHub Issues: {issues url}
 
-***
+---
 
 **Built with ❤️ by {Your Organization or Your Name}**
-
