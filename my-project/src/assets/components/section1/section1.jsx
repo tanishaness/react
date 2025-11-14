@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './navbar.jsx'
-
+import Page1Content from './Page1Content.jsx'
 const Section1 = () => {
   return (
-    <div className='h-screen w-full bg-red-900'>
+    <div className='h-screen w-full bg-white'>
         <Navbar />
-    
+        <Page1Content />
     </div>
   )
 }
